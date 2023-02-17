@@ -11,8 +11,7 @@ const Homepage = () => {
         try{
             await logout()
             navigate('/')
-        }catch (e){
-            
+        }catch (e){         
             console.log(e.message)
         }
     }
@@ -20,7 +19,7 @@ const Homepage = () => {
   return (
     <div>
       <p>User Email:{user && user.email}</p> 
-        <button onclick={handlelogout}>Logout</button>
+        <button onClick={handlelogout}>Logout</button>
         <p>aslam</p>
         <p>aslam</p>
         <p>aslam</p>
