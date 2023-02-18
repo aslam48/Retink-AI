@@ -62,9 +62,24 @@
 
     .content-box{
         width: 200px;
-        position: absolute;
         word-spacing: 0.1rem;
         word-break:normal;
+    }
+   }
+
+
+   
+@media screen and (max-width: 807px) {
+    .text_and_img_context{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .retink_icon{
+        max-width: 70%;
+        margin: 0 auto;
+        margin-top: 5px;
     }
    }
 

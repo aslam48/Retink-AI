@@ -15,7 +15,7 @@ const Content = () => {
       </div>
 
       <div>
-        <img src={RetinkAvata} alt='icon retink'/>
+        <img src={RetinkAvata} alt='icon retink' className='retink_icon'/>
       </div>
     </div>
   )
