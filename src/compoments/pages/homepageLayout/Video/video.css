@@ -1,0 +1,14 @@
+.context{
+    color:#7E1CFE;
+    font-weight: 700;
+}
+
+.VideoYoutube_img{
+    max-width: 40%;
+}
+
+@media screen and (max-width:600px) {
+    .VideoYoutube_img{
+    max-width: 100%;
+    } 
+}

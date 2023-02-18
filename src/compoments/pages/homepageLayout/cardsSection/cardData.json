@@ -1,0 +1,42 @@
+
+[   
+     {
+        "id": 1,
+        "cloudImg":"../../../../assets/artificial-intelligence-svgrepo-com 1brain.svg",
+        "title": "MakeAI-assisted Content Choices",
+        "content": "Access and Order from an extensive catalogue in any language and on your budget’s terms. If unsure, our AI guides you to the best.",
+        "isVisible":true
+    },
+
+    {
+        "id": 2,
+        "uploadCard":"../../../../assets/Groupbrand.svg",
+        "title2": "Upload and Maintain your Brand Identity",
+        "content2": "Your details are translated and sent to the AI, FP, or both (per your choice) as you relax and receive continuous updates.!",
+        "isVisible":true
+    }, 
+
+    {
+        "id": 3,
+        "uploadCard":"../../../../assets/Vector.svg",
+        "title3": "Be informed as we create",
+        "content3": "Add your preferences and brand assets to ensure the contents is consistent with your brand identity. No brand asset? We can make for you!",
+        "isVisible":true
+    },
+
+    {
+        "id": 4,
+        "review":"../../../../assets/direct-customer-svgrepo-com 1.svg",
+        "title4": "Receive and Review",
+        "content4": "The finished content is delivered and you can make corrections that we will effect to satisfy your requirements.",
+        "isVisible":true
+    },
+
+    {
+        "id": 5,
+        "publish":"../../../../assets/Vectorpublish.svg",
+        "title5": "Publish and Monitor your contents’ progress",
+        "content5": "The finished content is delivered and you can make corrections that we will effect to satisfy your requirements.",
+        "isVisible":true
+    }
+]

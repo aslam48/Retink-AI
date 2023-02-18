@@ -1,9 +1,11 @@
 import React from 'react'
 import './content.css'
 import RetinkAvata from '../../../../assets/Retink-avata.png'
+import Video from '../Video/Video'
 
 const Content = () => {
   return (
+    <section >
     <div className="container text_and_img_context">
       <div>
         <p className='text'>Get Advanced AI</p>
@@ -18,6 +20,11 @@ const Content = () => {
         <img src={RetinkAvata} alt='icon retink' className='retink_icon'/>
       </div>
     </div>
+
+    {/* video */}
+    <Video />
+
+    </section>
   )
 }
 
