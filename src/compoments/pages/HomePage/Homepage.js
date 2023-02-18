@@ -26,7 +26,7 @@ const Homepage = () => {
 
         <div className='flex flex-row space-x-12 items-center '>
        <p className='hide_email'>User Email: <span>{user && user.email}</span></p> 
-        <button className='border border-indigo-600 bg-indigo-500 text-center rounded w-30 xl:p-4 sm:p-4 my-2 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-60 hover:bg-indigo-600 duration-300' onClick={handlelogout}>Logout</button>
+        <button className='border border-indigo-600 bg-indigo-500 text-center rounded w-30 xl:p-4 sm:p-7 my-3 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-60 hover:bg-indigo-600 duration-300' onClick={handlelogout}>Logout</button>
         </div>
         </nav>
 
