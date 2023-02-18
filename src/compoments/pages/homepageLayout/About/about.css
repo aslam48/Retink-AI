@@ -23,6 +23,137 @@ margin: 0 auto;
     font-size: 1.0rem;
 }
 
+ /* blog post  */
+
+ /* .items_blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ } */
+
+
+ .blog_box{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ .center-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+.items_blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  
+}
+.blog_box{
+    padding: 3px;
+    line-height: 1.1rem;
+}
+
+.blog_box > p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.blog_box > small {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+}
+
+
+.blog_box > img {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .blog_box{
+        width: 150px;
+    }
+
+    .items_blogs{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 1rem;
+        margin-left: -15px;
+    }
+
+    
+.blog_box > p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 0.6rem;
+}
+
+
+.blog_box > small {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    font-size: small;
+}
+
+  
+.blog_box > img {
+  max-width: 100%;
+}
+}
+
+
+
+
 @media screen and (max-width:1122px){
     
 .context_box{

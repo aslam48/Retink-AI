@@ -19,13 +19,53 @@ const About = () => {
         </div>
 
 
+
         {/* blogs */}
 
-        <div>
-          <img src={} alt=""/>
+       <div className='items_blogs'>
+        <div className='blog_box'>
+          <img src='https://github.com/aslam48/Retink-AI/blob/main/src/assets/logologo.png?raw=true' alt=""/>
           <small>Logod</small>
           <span></span>
-          <P> Have a unique & creative logo designed to express and represent your brand identity.</P>
+          <p> Have a unique & creative logo designed to express and represent your brand identity.</p>
+        </div>
+
+        <div className='blog_box'>
+          <img src='https://github.com/aslam48/Retink-AI/blob/main/src/assets/mac.png?raw=true' alt=""/>
+          <small>Logod</small>
+          <span></span>
+          <p> Have a unique & creative logo designed to express and represent your brand identity.</p>
+        </div>
+
+
+        <div className='blog_box'>
+          <img src='https://github.com/aslam48/Retink-AI/blob/main/src/assets/computer.png?raw=true' alt=""/>
+          <small>Logod</small>
+          <span></span>
+          <p> Have a unique & creative logo designed to express and represent your brand identity.</p>
+        </div>
+
+        <div className='blog_box'>
+          <img src='https://github.com/aslam48/Retink-AI/blob/main/src/assets/camera.png?raw=true' alt=""/>
+          <small>Logod</small>
+          <span></span>
+          <p> Have a unique & creative logo designed to express and represent your brand identity.</p>
+        </div>
+
+        <div className='blog_box'>
+          <img src='https://github.com/aslam48/Retink-AI/blob/main/src/assets/copywrite.png?raw=true' alt=""/>
+          <small>Logod</small>
+          <span></span>
+          <p> Have a unique & creative logo designed to express and represent your brand identity.</p>
+        </div>
+
+        <div className='blog_box'>
+          <img src='https://github.com/aslam48/Retink-AI/blob/main/src/assets/social%20phone.png?raw=true' alt=""/>
+          <small>Logod</small>
+          <span></span>
+          <p> Have a unique & creative logo designed to express and represent your brand identity.</p>
+        </div>
+
         </div>
     </div>
   )
