@@ -2,6 +2,7 @@ import React from 'react'
 import './content.css'
 import RetinkAvata from '../../../../assets/Retink-avata.png'
 import Video from '../Video/Video'
+import Carditems from '../cardsSection/Carditems'
 
 const Content = () => {
   return (
@@ -23,6 +24,10 @@ const Content = () => {
 
     {/* video */}
     <Video />
+
+    {/* rethinks cards  */}
+
+    <Carditems />
 
     </section>
   )

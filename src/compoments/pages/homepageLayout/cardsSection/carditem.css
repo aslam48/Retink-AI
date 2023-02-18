@@ -1,0 +1,127 @@
+.card-box{
+    width: 180px;
+    height: auto;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 
+              0 2px 2px rgba(0,0,0,0.11), 
+              0 4px 4px rgba(0,0,0,0.11), 
+              0 6px 8px rgba(0,0,0,0.11),
+              0 8px 16px rgba(0,0,0,0.11);
+              border-radius: 5px;
+              -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+              transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+.card-box::after{
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.card-box:hover {
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.25, 1.25);
+  }
+  
+  .card-box:hover::after {
+      opacity: 1;
+  }
+/* card animation */
+
+
+.center-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  
+}
+.card-box{
+    padding: 5px;
+    line-height: 1.1rem;
+}
+
+.card-box > p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.card-box > small {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+}
+
+
+.card-box > img {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .card-box{
+        width: 150px;
+    }
+
+    .card-item{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: auto;
+        grid-gap: 1rem;
+    }
+
+    
+.card-box > p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: medium;
+}
+
+  
+.card-box > img {
+  max-width: 20%;
+}
+
+}
+
