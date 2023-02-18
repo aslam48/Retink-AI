@@ -1,0 +1,20 @@
+
+/* .user_text {
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    transition: 0.3s;
+    text-shadow: 1px -2px 3px rgba(50, 50, 50, 0.99);
+    color:#323232;
+    font-weight: bold;
+  }
+
+   */
+  
+
+   @media screen and (max-width: 600px) {
+    .hide_email{
+    display: none;
+    }
+   }
+
+ 

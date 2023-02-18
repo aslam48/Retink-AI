@@ -10,7 +10,6 @@ body{
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  overflow-x: hidden;
 }
 
 html {
@@ -32,4 +31,8 @@ p{
 img{
   max-width: 100%;
   height: auto;
+}
+
+.indigo{
+  color:#7E1CFE;
 }
