@@ -4,7 +4,7 @@ import RetinkAvata from "../../../../assets/Retink-avata.png";
 import Video from "../Video/Video";
 import Carditems from "../cardsSection/Carditems";
 import Footer from "../footer/Footer";
-import About from '../About/About'
+import About from "../About/About";
 
 const Content = () => {
   return (

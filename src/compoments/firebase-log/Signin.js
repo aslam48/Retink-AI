@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-
+import './style.css'
 import {Link, useNavigate } from 'react-router-dom'
 import { UserAuth } from '../context/AuthContext'
+import Logo from '../../assets/logo.svg'
 
 const Signin = () => {
     const {signInUser} = UserAuth()
@@ -45,6 +46,11 @@ const Signin = () => {
             </div>
             <button className='border border-indigo-600 bg-indigo-500   w-full p-4 my-2 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-600 duration-300 ...'>Sign In</button>
         </form>
+
+
+        <div className='center_welcome'>
+            <p className='welcome_text'>Welcome Back To <img src={Logo} alt=""/> </p>
+        </div>
     
     </div>
   )

@@ -1,0 +1,27 @@
+.center_welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.center_welcome > P {
+    font-weight: 700;
+    font-size: 1.9rem;
+    display: flex;
+    column-gap: 1rem;
+}
+
+@media screen and (max-width: 600px){
+    .center_welcome > P {
+        font-weight: 700;
+        font-size: 1.1rem;
+        display: flex;
+        column-gap: 1rem;
+    }
+    
+    .center_welcome > p > img {
+      max-width: 30%;
+    }
+    
+}

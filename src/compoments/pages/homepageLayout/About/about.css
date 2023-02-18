@@ -174,24 +174,6 @@ margin: 0 auto;
 }
 
 
-.link-underline {
-    border-bottom-width: 0;
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
-    background-size: 0 3px;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size .5s ease-in-out;
-}
-
-.link-underline-black {
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#F2C, #F2C)
-}
-
-.link-underline:hover {
-    background-size: 100% 3px;
-    background-position: 0 100%
-}
-
 @media screen and (max-width:700px){
     .context_box{
         width: 350px;
@@ -226,16 +208,86 @@ margin: 0 auto;
     flex-direction: column;
 }
 
+.colume-btn{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 
 .flex-btn{
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn{
-    padding:30px;
-    width: 100px;
-    background: transparent;
-    border: 2px solid turquoise;
-    text-align: center;
+    padding:0.6em 2em;
+  border-radius: 8px;
+  color:#fff;
+  background-color:#1976d2;
+  font-size:1.1em;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+}
+
+.btn2{
+    padding:0.6em 2em;
+    width: 170px;
+  border-radius: 8px;
+  color:#fff;
+  background-color:#1976d2;
+  font-size:1.1em;
+  border:0;
+  cursor:pointer;
+  margin:1em;
+}
+
+@media screen and (max-width:600px) {
+    .btn{
+        padding:0.2em 2em;
+      border-radius: 8px;
+      color:#fff;
+      background-color:#1976d2;
+      font-size:1.1em;
+      border:0;
+      cursor:pointer;
+    }
+    
+    .btn2{
+        padding:0.9em 2em;
+      border-radius: 8px;
+      color:#fff;
+      background-color:#1976d2;
+      font-size:1.1em;
+      border:0;
+      cursor:pointer;
+    } 
+
+    .flex-btn {
+        margin-left: -22px;
+    }
+}
+
+.btn_free{
+    padding:0.6em 2em;
+    border-radius: 8px;
+    color:turquoise;
+    background-color: transparent;
+    border: 2px solid #1976d2;
+    font-size:1.1em;
+    cursor:pointer;
+    margin:1em;
+    text-decoration: underline;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_free:hover{
+background: #1976d2;
+transition: ease-in-out .5s;
 }

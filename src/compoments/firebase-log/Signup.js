@@ -2,6 +2,9 @@ import React, { useState} from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { UserAuth } from '../context/AuthContext'
 // import { createUserWithEmailAndPassword } from 'firebase/auth'
+import Logo from '../../assets/logo.svg'
+
+
 
 const Signup = () => {
     const [email, setEmail] = useState("")
@@ -44,6 +47,9 @@ const Signup = () => {
             <button className='border border-indigo-600 bg-indigo-500   w-full p-4 my-2 text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-600  duration-300 ...'>Sign Up</button>
         </form>
     
+        <div className='center_welcome'>
+            <p className='welcome_text'>Set Up Account On <img src={Logo} alt=""/> </p>
+        </div>
     </div>
   )
 }
