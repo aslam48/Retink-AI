@@ -85,15 +85,16 @@ margin: 0 auto;
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: 0.7rem;
-    font-weight: 700;
+    font-size: 0.9rem;
+    opacity: 0.9;
 }
 
 .blog_box > small {
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-size: x-small;
+    font-size: 1.1rem;
+    font-weight: 300;
 }
 
 
@@ -104,13 +105,6 @@ margin: 0 auto;
     margin: 0 auto;
     padding: 5px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -180,6 +174,23 @@ margin: 0 auto;
 }
 
 
+.link-underline {
+    border-bottom-width: 0;
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+    background-size: 0 3px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size .5s ease-in-out;
+}
+
+.link-underline-black {
+    background-image: linear-gradient(transparent, transparent), linear-gradient(#F2C, #F2C)
+}
+
+.link-underline:hover {
+    background-size: 100% 3px;
+    background-position: 0 100%
+}
 
 @media screen and (max-width:700px){
     .context_box{
@@ -205,3 +216,26 @@ margin: 0 auto;
     }
     
     }
+
+
+.join_btn_component{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.flex-btn{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    padding:30px;
+    width: 100px;
+    background: transparent;
+    border: 2px solid turquoise;
+    text-align: center;
+}

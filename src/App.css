@@ -23,6 +23,15 @@ html {
   padding: 30px;
 }
 
+
+.footer-container{
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+
 p{
   color: black;
 }
